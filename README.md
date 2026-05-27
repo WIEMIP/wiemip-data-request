@@ -1,8 +1,10 @@
-# Warming-Induced Emissions Model Intercomparison Project Data Request
+# Warming-Induced Emissions Model Intercomparison Project Variable Request
 
 Variable request for the Warming-Induced Emissions Model Intercomparison Project (WIEMIP).
 WIE variables have been sourced from multiple MIPs: ISIMIP, TRENDY, FireMIP, WrPMIP, and CMIP7. 
-The Airtable variable request is [here](https://airtable.com/appA36ibPzVolnROx/shrBXdfrFKttz3YxO).
+The Airtable variable request is [here](https://airtable.com/appA36ibPzVolnROx/shrBXdfrFKttz3YxO) and is constructed by 
+parsing the .json files in `variables/`. The `WIEMIP_variable_request_20260527.xlsx` was pulled directly from the Google
+Sheet previously used to manage the WIEMIP variable request.
 
 Please raise an issue with any questions, comments, or suggestions for variable changes. When your model is unable to
 report a variable (either because it doesn't align with the definition in the variable request or if it would be too much
