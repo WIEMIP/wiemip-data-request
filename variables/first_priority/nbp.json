@@ -1,0 +1,16 @@
+{
+  "Variable": "Net Biospheric Production",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "This is the net flux between land and atmosphere defined as photosynthesis MINUS the sum of plant and soil respiration, carbonfluxes from fire, land use fluxes, and any other C flux in/out of the ecosystem (eg DIC, DOC, VOCs,...). Positive flux is into the land. NBP SHOULD be equal to changes in total carbon reservoirs. Previously reported in units, kg C C m-2 s-1. Please remove the letter C in output files.",
+  "Variable name": "nbp",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.nbp.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "nbp_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
+  "CMIP7 Description": "Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1]",
+  "CMIP7 Title": "Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1]"
+}

@@ -1,0 +1,16 @@
+{
+  "Variable": "Burnt Area Fraction from Peat Fire",
+  "Unit": "%",
+  "Comment": "Area burned from peatland fires; part of burntarea-total",
+  "Variable name": "burntareapeatTotal",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.burntFractionPeat.tavg-u-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

@@ -1,0 +1,16 @@
+{
+  "Variable": "Total methane flux",
+  "Unit": "kg CH4 m-2 s-1",
+  "Comment": "Units should be in kg C CH4",
+  "Variable name": "ch4",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.ch4.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

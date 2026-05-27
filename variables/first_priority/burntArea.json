@@ -1,0 +1,16 @@
+{
+  "Variable": "Burnt Area Fraction",
+  "Unit": "fraction",
+  "Comment": "fraction of entire grid cell  that is covered by burnt vegetation.",
+  "Variable name": "burntArea",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.burntFractionAll.tavg-u-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "burntFractionAll_tavg-u-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "area_fraction",
+  "CMIP7 Description": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
+  "CMIP7 Title": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)"
+}

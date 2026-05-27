@@ -1,0 +1,16 @@
+{
+  "Variable": "Surface wind speed",
+  "Unit": "m s-1",
+  "Comment": "Near surface wind magnitude",
+  "Variable name": "wind",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.sfcWind.tavg-h10m-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "sfcWind_tavg-h10m-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "wind_speed",
+  "CMIP7 Description": "Near-Surface Wind Speed",
+  "CMIP7 Title": "Near-Surface Wind Speed"
+}

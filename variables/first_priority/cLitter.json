@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon in Above-ground Litter Pool",
+  "Unit": "kg C m-2",
+  "Comment": "",
+  "Variable name": "cLitter",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.cLitter.tavg-u-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "cLitter_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "litter_mass_content_of_carbon",
+  "CMIP7 Description": "Carbon Mass in Litter Pool",
+  "CMIP7 Title": "Carbon Mass in Litter Pool"
+}

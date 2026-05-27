@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level Rh",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "rhpft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.rhVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "rhVgt_tavg-u-hxy-multi",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+  "CMIP7 Description": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+  "CMIP7 Title": "Heterotrophic Respiration on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]"
+}

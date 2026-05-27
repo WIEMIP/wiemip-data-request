@@ -1,0 +1,16 @@
+{
+  "Variable": "Surface specific humidity",
+  "Unit": "kg kg-1",
+  "Comment": "Near surface specific humidity",
+  "Variable name": "qair",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.huss.tavg-h2m-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "huss_tavg-h2m-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "specific_humidity",
+  "CMIP7 Description": "Near-Surface Specific Humidity",
+  "CMIP7 Title": "Near-Surface Specific Humidity"
+}

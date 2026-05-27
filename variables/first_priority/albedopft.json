@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level Broadband Albedo",
+  "Unit": "fraction",
+  "Comment": "if available provide black and white sky albedo. If only blue sky albedo is available than we need the fraction of incoming diffuse shortwave",
+  "Variable name": "albedopft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.albedoVgt.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

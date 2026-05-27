@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level Leaf Area Index",
+  "Unit": "",
+  "Comment": "projected leaf area per PFT",
+  "Variable name": "laipft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.laiVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "laiVgt_tavg-u-hxy-multi",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "leaf_area_index",
+  "CMIP7 Description": "Leaf Area Index on Vegetation type",
+  "CMIP7 Title": "Leaf Area Index on Vegetation type"
+}

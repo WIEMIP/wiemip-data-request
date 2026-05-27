@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon in individual soil pools",
+  "Unit": "kg C m-2",
+  "Comment": "",
+  "Variable name": "cSoilPools",
+  "CMOR dimensions": "longitude latitude pool time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.cSoilPools.tavg-u-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "cSoilPools_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "soil_mass_content_of_carbon",
+  "CMIP7 Description": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+  "CMIP7 Title": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)"
+}

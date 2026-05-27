@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon in Different Fuel Classes",
+  "Unit": "kg C m-2",
+  "Comment": "Fuel carbon by class; dimensions (time, fuelclass, lat, lon)",
+  "Variable name": "cfuelTotal",
+  "CMOR dimensions": "latitude longitude fuelclass time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.cFuelClass.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

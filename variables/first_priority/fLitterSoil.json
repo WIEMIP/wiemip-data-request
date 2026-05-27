@@ -1,0 +1,16 @@
+{
+  "Variable": "Total Carbon Flux from Litter to Soil",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "fLitterSoil",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fLitterSoil.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fLitterSoil_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "carbon_mass_flux_into_soil_from_litter",
+  "CMIP7 Description": "Total Carbon Mass Flux from Litter to Soil",
+  "CMIP7 Title": "Total Carbon Mass Flux from Litter to Soil"
+}

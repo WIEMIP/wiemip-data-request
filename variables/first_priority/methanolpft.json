@@ -1,0 +1,16 @@
+{
+  "Variable": "Emission flux of methanol by vegetation type",
+  "Unit": "kg m-2 s-1",
+  "Comment": "methanol - report in kg of species",
+  "Variable name": "methanolpft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.methanolVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

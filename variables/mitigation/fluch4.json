@@ -1,0 +1,17 @@
+{
+  "Variable": "CH4 emission by land use type",
+  "Unit": "kg CH4 m-2 s-1",
+  "Comment": "Constant LU ",
+  "Variable name": "fluch4",
+  "CMOR dimensions": "longitude latitude lutype time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "Note": "Already in other tabs",
+  "CMIP7 Compound Name": "land.fCH4Lut.tavg-u-hxy-lut.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

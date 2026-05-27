@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype NPP allocation to Wood",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "fAllocWood",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fAllocWoodVgt.tavg-u-hxy-multi.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

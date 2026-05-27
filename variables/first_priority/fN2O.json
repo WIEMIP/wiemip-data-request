@@ -1,0 +1,16 @@
+{
+  "Variable": "N2O flux",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "Total land N2O flux - report in N2O-N",
+  "Variable name": "fN2O",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fN2O.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fN2O_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+  "CMIP7 Description": "Total Land N2O Flux",
+  "CMIP7 Title": "Total Land N2O Flux"
+}

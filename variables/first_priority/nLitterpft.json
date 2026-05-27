@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level Nitrogen in Litter",
+  "Unit": "kg N m-2 ",
+  "Comment": "Parallel the corresponding carbon variable (i.e., cLitter) at PFT level.",
+  "Variable name": "nLitterpft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.nLitterVgt.tavg-hxy-multi.yr.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

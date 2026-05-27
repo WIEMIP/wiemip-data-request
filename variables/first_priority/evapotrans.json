@@ -1,0 +1,16 @@
+{
+  "Variable": "Total Evapo-Transpiration",
+  "Unit": "kg m-2 s-1",
+  "Comment": "",
+  "Variable name": "evapotrans",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.evspsbl.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "evspsbl_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "water_evapotranspiration_flux",
+  "CMIP7 Description": "Evaporation Including Sublimation and Transpiration",
+  "CMIP7 Title": "Evaporation Including Sublimation and Transpiration"
+}

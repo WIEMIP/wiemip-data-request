@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon in Soil above 1m",
+  "Unit": "kg C m-2",
+  "Comment": "cSoil = cSoilAbove1m + cSoilBelow1m. Only report if your model has vertically resolved soil carbon.",
+  "Variable name": "cSoilAbove1m",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.cSoil.tavg-d100cm-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "cSoil_tavg-d100cm-hxy-lnd",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "carbon_mass_content_of_soil_layer",
+  "CMIP7 Description": "Carbon Mass in Soil Pool Above 1m Depth",
+  "CMIP7 Title": "Carbon Mass in Soil Pool Above 1m Depth"
+}

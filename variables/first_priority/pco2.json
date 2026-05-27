@@ -1,0 +1,16 @@
+{
+  "Variable": "Permafrost CO2 flux",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "Report in units of C. Submit global variables, permafrost masks will be determined by each analysis.",
+  "Variable name": "pco2",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.pco2.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level NBP",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "If soils are associated with PFT fraction",
+  "Variable name": "nbppft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.nbpVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

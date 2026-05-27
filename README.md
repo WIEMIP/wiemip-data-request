@@ -1,18 +1,32 @@
-# WIEMIP Data Request
+# Warming-Induced Emissions Data Request
 
 Variable request for the Wetland and Inundation Extent Model Intercomparison Project (WIEMIP), aligned with CMIP7 CMOR table definitions.
 
 ## Contents
 
-| File | Description |
-|------|-------------|
-| `WIEMIP_variable_request.xlsx` | Source-of-truth spreadsheet (one tab per working group) |
-| `WIEMIP_variable_request.json` | Machine-readable JSON (one key per sheet, array of row objects) |
-| `scripts/sync_airtable.py` | Syncs the JSON to an Airtable base |
+| Path | Description                                                    |
+|------|----------------------------------------------------------------|
+| `WIEMIP_variable_request_20260527.xlsx` | Spreadsheet pulled from Google sheets on May 27th, 2026        |  
+| `variables/` | One subdirectory per working group, one JSON file per variable |
+| `scripts/sync_airtable.py` | Syncs the variable JSONs to an Airtable base                   |
+
+### `variables/` layout
+
+```
+variables/
+  first_priority/   # 98 variables
+  fire/             # 22 variables
+  permafrost/       # 25 variables
+  soil_n2o/         #  8 variables
+  methane/          #  4 variables
+  mitigation/       # 13 variables
+```
+
+Each JSON file is named after the variable (e.g. `variables/first_priority/gpp.json`).
 
 ## Airtable sync
 
-The GitHub Actions workflow (`.github/workflows/sync-airtable.yml`) runs `scripts/sync_airtable.py` on every push to `main` that modifies the JSON, or on manual dispatch.
+The GitHub Actions workflow (`.github/workflows/sync-airtable.yml`) runs `scripts/sync_airtable.py` on every push to `main` that modifies any `variables/**/*.json`, or on manual dispatch.
 
 ### Secrets required
 

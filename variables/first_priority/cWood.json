@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon in Wood",
+  "Unit": "kg C m-2",
+  "Comment": "including sapwood and hardwood. ",
+  "Variable name": "cWood",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.cWood.tavg-u-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

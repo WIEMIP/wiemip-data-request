@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level CO2 Emission from Fire",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "CO2 emissions from natural fires + human ignition fires as calculated by the fire module of the DGVM reported in units, kg C C m-2 s-1. Please remove the letter C in output files.",
+  "Variable name": "fFirepft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fFireVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

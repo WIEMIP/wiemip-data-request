@@ -1,0 +1,16 @@
+{
+  "Variable": "Tree Mortality Caused by Fire",
+  "Unit": "%",
+  "Comment": "Fraction of tree-covered area affected",
+  "Variable name": "firemortalityTotal",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fireMortality.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

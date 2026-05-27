@@ -1,0 +1,16 @@
+{
+  "Variable": "Total Carbon Flux from Vegetation Directly to Soil",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "In some models part of carbon (e.g., root exudate) can go directly into the soil pool without entering litter. Previously reported in units, kg C C m-2 s-1. Please remove the letter C in output files.",
+  "Variable name": "fVegSoil",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fVegSoil.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fVegSoil_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "carbon_mass_flux_into_soil_from_vegetation_excluding_litter",
+  "CMIP7 Description": "Total Carbon Mass Flux from Vegetation Directly to Soil",
+  "CMIP7 Title": "Total Carbon Mass Flux from Vegetation Directly to Soil"
+}

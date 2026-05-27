@@ -1,0 +1,16 @@
+{
+  "Variable": "Surface air temperature",
+  "Unit": "K",
+  "Comment": "Near surface air temperature",
+  "Variable name": "tair",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.tas.tavg-h2m-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "tas_tavg-h2m-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "air_temperature",
+  "CMIP7 Description": "Near-Surface Air Temperature",
+  "CMIP7 Title": "Near-Surface Air Temperature"
+}

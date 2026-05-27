@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level sensible heat flux",
+  "Unit": "W m-2",
+  "Comment": "required only for models that solve the energy/water balance at the vegtype level",
+  "Variable name": "shflxpft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.shflxVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

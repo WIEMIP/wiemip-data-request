@@ -1,0 +1,16 @@
+{
+  "Variable": "Layered Nitrogen Inorganic (NH4+ and NO3-) in Soil (including below-ground litter)",
+  "Unit": "kg N m-2 ",
+  "Comment": "",
+  "Variable name": "nInorgSoilLayer",
+  "CMOR dimensions": "longitude latitude layer time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.nInorgSoilLayer.tavg-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

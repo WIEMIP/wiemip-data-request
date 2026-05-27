@@ -1,0 +1,16 @@
+{
+  "Variable": "Soil layer moisture content",
+  "Unit": "kg m-2",
+  "Comment": "Soil water content in each soil layer, including liquid, vapor, and ice",
+  "Variable name": "soilMoist",
+  "CMOR dimensions": "longitude latitude nsoil time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.mrsoLayer.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

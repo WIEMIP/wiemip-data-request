@@ -1,0 +1,16 @@
+{
+  "Variable": "Fuel Moisture for Different Fuel Classes",
+  "Unit": "",
+  "Comment": "Fraction of dry mass (0\u20131); by fuel class",
+  "Variable name": "mfuelTotal",
+  "CMOR dimensions": "latitude longitude fuelclass time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fuelMoistureFuelClass.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

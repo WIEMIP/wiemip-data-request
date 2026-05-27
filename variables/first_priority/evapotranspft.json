@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level evapotranspiration",
+  "Unit": "W m-2",
+  "Comment": "If possible we would prefer to have two separated fluxes for tree transpiration and ecosystem evaporation. The sum of the two is the total evapotranspiration. We would prefer water fluxes expressed in energy terms (W/m2).",
+  "Variable name": "evapotranspft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.evspsblVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

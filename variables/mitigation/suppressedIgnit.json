@@ -1,0 +1,17 @@
+{
+  "Variable": "Fire ignitions suppressed",
+  "Unit": "#",
+  "Comment": "Number of ignitions suppressed in the fire module",
+  "Variable name": "suppressedIgnit",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "Note": "",
+  "CMIP7 Compound Name": "land.fireIgnitionsSuppressed.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

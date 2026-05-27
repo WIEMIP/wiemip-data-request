@@ -1,0 +1,16 @@
+{
+  "Variable": "N deposition (if different than prescribed driver)",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "Atmospheric n deposition",
+  "Variable name": "fNdep",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fNdep.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fNdep_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
+  "CMIP7 Description": "Dry and Wet Deposition of Reactive Nitrogen onto Land",
+  "CMIP7 Title": "Dry and Wet Deposition of Reactive Nitrogen onto Land"
+}

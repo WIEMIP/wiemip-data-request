@@ -1,0 +1,16 @@
+{
+  "Variable": "Fractional Land Cover of PFT",
+  "Unit": "",
+  "Comment": "Using model-specific PFT definition",
+  "Variable name": "landCoverFrac",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual (if dynamic veg) or once (if static veg)",
+  "CMIP7 Compound Name": "land.landCoverFrac.tavg-u-hxy-u.yr.glb",
+  "CMIP7 Branded Variable Name": "landCoverFrac_tavg-u-hxy-u",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "area_fraction",
+  "CMIP7 Description": "Percentage of Area by Vegetation or Land-Cover Category",
+  "CMIP7 Title": "Percentage of Area by Vegetation or Land-Cover Category"
+}

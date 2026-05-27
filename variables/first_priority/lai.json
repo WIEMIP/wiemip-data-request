@@ -1,0 +1,16 @@
+{
+  "Variable": "Leaf Area Index",
+  "Unit": "",
+  "Comment": "projected leaf area",
+  "Variable name": "lai",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.lai.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "lai_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "leaf_area_index",
+  "CMIP7 Description": "Leaf Area Index",
+  "CMIP7 Title": "Leaf Area Index"
+}

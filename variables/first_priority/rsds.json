@@ -1,0 +1,16 @@
+{
+  "Variable": "Surface Downwelling Shortwave Radiation",
+  "Unit": "W m-2",
+  "Comment": "surface_downwelling_shortwave_flux_in_air",
+  "Variable name": "rsds",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.rsds.tavg-u-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "rsds_tavg-u-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "surface_downwelling_shortwave_flux_in_air",
+  "CMIP7 Description": "Surface Downwelling Shortwave Radiation",
+  "CMIP7 Title": "Surface Downwelling Shortwave Radiation"
+}

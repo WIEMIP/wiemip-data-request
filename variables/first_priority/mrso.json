@@ -1,0 +1,16 @@
+{
+  "Variable": "Soil moisture ",
+  "Unit": "kg m-2",
+  "Comment": "Compute the mass per unit area  (summed over all soil layers) of water in all phases.",
+  "Variable name": "mrso",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.mrso.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "mrso_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "mass_content_of_water_in_soil",
+  "CMIP7 Description": "Total Soil Moisture Content",
+  "CMIP7 Title": "Total Soil Moisture Content"
+}

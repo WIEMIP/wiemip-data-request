@@ -1,0 +1,16 @@
+{
+  "Variable": "Net shortwave radiation",
+  "Unit": "W m-2",
+  "Comment": "Incident shortwave radiation minus simulated outgoing shortwave radiation (positive into ground)",
+  "Variable name": "swnet",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.rsn.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

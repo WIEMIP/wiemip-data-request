@@ -1,0 +1,16 @@
+{
+  "Variable": "Nitrogen uptake of Vegetation",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "",
+  "Variable name": "fNup",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fNup.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fNup_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "tendency_of_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+  "CMIP7 Description": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen",
+  "CMIP7 Title": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen"
+}

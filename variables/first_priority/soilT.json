@@ -1,0 +1,16 @@
+{
+  "Variable": "Soil temperature per layer",
+  "Unit": "K",
+  "Comment": "Average soil temperature in each soil layer",
+  "Variable name": "soilT",
+  "CMOR dimensions": "longitude latitude layer time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.tsl.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "tsl_tavg-sl-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "soil_temperature",
+  "CMIP7 Description": "Temperature of Soil",
+  "CMIP7 Title": "Temperature of Soil"
+}

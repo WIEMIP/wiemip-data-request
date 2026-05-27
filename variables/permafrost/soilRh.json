@@ -1,0 +1,16 @@
+{
+  "Variable": "Vertically resolved soil respiration",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "Soil respiration in each soil layer, if available",
+  "Variable name": "soilRh",
+  "CMOR dimensions": "longitude latitude nsoil time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.rhSoilVr.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

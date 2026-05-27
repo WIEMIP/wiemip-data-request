@@ -1,0 +1,16 @@
+{
+  "Variable": "Net Primary Production",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "npp",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.npp.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "npp_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "net_primary_productivity_of_biomass_expressed_as_carbon",
+  "CMIP7 Description": "Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1]",
+  "CMIP7 Title": "Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1]"
+}

@@ -1,0 +1,16 @@
+{
+  "Variable": "Low Vegetation Cover",
+  "Unit": "%",
+  "Comment": "Fraction of vegetation <5m height",
+  "Variable name": "lowcoverTotal",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.lowVegCoverFrac.tavg-u-hxy-u.yr.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

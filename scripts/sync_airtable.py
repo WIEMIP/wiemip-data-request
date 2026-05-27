@@ -2,8 +2,8 @@
 """
 Sync the WIEMIP variable request JSON to Airtable.
 
-Reads WIEMIP_variable_request.json (one key per sheet) and syncs each sheet
-to its own Airtable table inside a single base.
+Reads per-variable JSON files from the variables/ directory tree and syncs
+each subdirectory to its own Airtable table inside a single base.
 
 On first run (no AIRTABLE_BASE_ID set), creates a new base with one table
 per sheet.  On subsequent runs, clears and re-populates every table.
@@ -29,16 +29,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# Paths
-# ---------------------------------------------------------------------------
 REPO_ROOT = Path(__file__).resolve().parent.parent
-JSON_PATH = REPO_ROOT / "WIEMIP_variable_request.json"
+VARIABLES_DIR = REPO_ROOT / "variables"
 ENV_PATH = REPO_ROOT / ".env"
 
-# ---------------------------------------------------------------------------
-# Airtable constants
-# ---------------------------------------------------------------------------
 API_BASE = "https://api.airtable.com/v0"
 BATCH_SIZE = 10  # Airtable max records per request
 
@@ -109,10 +103,6 @@ def get_token() -> str:
     return token
 
 
-# ---------------------------------------------------------------------------
-# HTTP helpers (stdlib only)
-# ---------------------------------------------------------------------------
-
 def api_request(method: str, url: str, data: dict | None = None) -> dict:
     body = json.dumps(data).encode() if data else None
     req = urllib.request.Request(
@@ -131,10 +121,6 @@ def api_request(method: str, url: str, data: dict | None = None) -> dict:
         body_text = e.read().decode()
         sys.exit(f"Airtable API error ({e.code} {method} {url}):\n{body_text}")
 
-
-# ---------------------------------------------------------------------------
-# Airtable API helpers
-# ---------------------------------------------------------------------------
 
 def fields_for_sheet(sheet_name: str, rows: list[dict]) -> list[dict]:
     """Build the Airtable field definitions for a sheet."""
@@ -208,9 +194,32 @@ def create_records(base_id: str, table_name: str, rows: list[dict]):
         time.sleep(0.25)
 
 
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
+# Directory name -> Airtable table name
+DIR_TO_TABLE = {
+    "first_priority": "First priority",
+    "fire": "Fire",
+    "permafrost": "Permafrost",
+    "soil_n2o": "Soil N2O",
+    "methane": "Methane",
+    "mitigation": "Mitigation",
+}
+
+
+def read_variables_dir(variables_dir: Path) -> dict[str, list[dict]]:
+    """Read per-variable JSONs from the directory structure."""
+    sheets: dict[str, list[dict]] = {}
+    for dirname, table_name in DIR_TO_TABLE.items():
+        d = variables_dir / dirname
+        if not d.is_dir():
+            continue
+        rows = []
+        for f in sorted(d.glob("*.json")):
+            with open(f) as fh:
+                rows.append(json.load(fh))
+        sheets[table_name] = rows
+    return sheets
+
+
 
 def main():
     load_dotenv()
@@ -218,9 +227,8 @@ def main():
     workspace_id = os.environ.get("AIRTABLE_WORKSPACE_ID", "")
     base_id = os.environ.get("AIRTABLE_BASE_ID", "")
 
-    print(f"Reading {JSON_PATH} ...")
-    with open(JSON_PATH) as f:
-        sheets = json.load(f)
+    print(f"Reading {VARIABLES_DIR} ...")
+    sheets = read_variables_dir(VARIABLES_DIR)
     for name, rows in sheets.items():
         print(f"  {name}: {len(rows)} rows")
 

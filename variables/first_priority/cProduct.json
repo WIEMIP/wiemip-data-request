@@ -1,0 +1,16 @@
+{
+  "Variable": "cProduct NOT REQUIRED for 1pctCO2 runs unless your model needs wood harvest",
+  "Unit": "kg C m-2",
+  "Comment": "Not required as woodharvest is turned off and no LU change for 1pctruns",
+  "Variable name": "cProduct",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "annual",
+  "CMIP7 Compound Name": "land.cProduct.tavg-u-hxy-lnd.yr.glb",
+  "CMIP7 Branded Variable Name": "cProduct_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "yr",
+  "CF Standard Name": "carbon_mass_content_of_forestry_and_agricultural_products",
+  "CMIP7 Description": "Carbon Mass in Products of Land-Use Change",
+  "CMIP7 Title": "Carbon Mass in Products of Land-Use Change"
+}

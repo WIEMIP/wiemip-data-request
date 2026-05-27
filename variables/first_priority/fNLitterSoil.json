@@ -1,0 +1,16 @@
+{
+  "Variable": "Decomposition N",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "",
+  "Variable name": "fNLitterSoil",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fNLitterSoil.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fNLitterSoil_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "nitrogen_mass_flux_into_soil_from_litter",
+  "CMIP7 Description": "Total Nitrogen Mass Flux from Litter to Soil",
+  "CMIP7 Title": "Total Nitrogen Mass Flux from Litter to Soil"
+}

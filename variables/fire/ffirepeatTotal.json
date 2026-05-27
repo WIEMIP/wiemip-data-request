@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon emitted from peat fires",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "Carbon emissions from peat fires; part of ffire",
+  "Variable name": "ffirepeatTotal",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fFirePeat.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

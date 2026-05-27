@@ -1,0 +1,16 @@
+{
+  "Variable": "Carbon Flux from individual soil layers",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "rhLayers",
+  "CMOR dimensions": "longitude latitude layer time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.rhLayer.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

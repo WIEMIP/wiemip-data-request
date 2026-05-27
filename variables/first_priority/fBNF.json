@@ -1,0 +1,16 @@
+{
+  "Variable": "Biological Nitrogen Fixation",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "",
+  "Variable name": "fBNF",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fBNF.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fBNF_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+  "CMIP7 Description": "Biological Nitrogen Fixation",
+  "CMIP7 Title": "Biological Nitrogen Fixation"
+}

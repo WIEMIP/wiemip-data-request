@@ -1,0 +1,16 @@
+{
+  "Variable": "Mean Number of Fires",
+  "Unit": "n km-2 day-1",
+  "Comment": "Monthly mean number of fires",
+  "Variable name": "firenrTotal",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fireNumber.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

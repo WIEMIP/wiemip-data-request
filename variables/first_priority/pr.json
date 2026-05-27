@@ -1,0 +1,16 @@
+{
+  "Variable": "Precipitation",
+  "Unit": "kg m-2 s-1",
+  "Comment": "at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)",
+  "Variable name": "pr",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.pr.tavg-u-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "pr_tavg-u-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "precipitation_flux",
+  "CMIP7 Description": "Precipitation",
+  "CMIP7 Title": "Precipitation"
+}

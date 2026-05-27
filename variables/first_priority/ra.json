@@ -1,0 +1,16 @@
+{
+  "Variable": "Autotrophic (Plant) Respiration",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "ra",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.ra.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "ra_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
+  "CMIP7 Description": "Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
+  "CMIP7 Title": "Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]"
+}

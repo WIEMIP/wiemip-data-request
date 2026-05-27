@@ -1,0 +1,16 @@
+{
+  "Variable": "Perched water table depth",
+  "Unit": "m",
+  "Comment": "Depth to top of water table; positive if below surface, negative if water is ponding on surface",
+  "Variable name": "wtd",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.wtd.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "wtd_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "water_table_depth",
+  "CMIP7 Description": "Water Table Depth",
+  "CMIP7 Title": "Water Table Depth"
+}

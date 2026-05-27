@@ -1,0 +1,16 @@
+{
+  "Variable": "Soil moisture per layer",
+  "Unit": "kg m-2",
+  "Comment": "Average soil moisture in each soil layer",
+  "Variable name": "mrsoLayer",
+  "CMOR dimensions": "longitude latitude layer time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.mrso.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

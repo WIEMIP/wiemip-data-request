@@ -1,0 +1,16 @@
+{
+  "Variable": "Vegtype level GPP",
+  "Unit": "kg C m-2 s-1",
+  "Comment": "",
+  "Variable name": "gpppft",
+  "CMOR dimensions": "longitude latitude pft time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.gppVgt.tavg-u-hxy-multi.mon.glb",
+  "CMIP7 Branded Variable Name": "gppVgt_tavg-u-hxy-multi",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
+  "CMIP7 Description": "Gross Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]",
+  "CMIP7 Title": "Gross Primary Production on Vegetation type as Carbon Mass Flux [kgC m-2 s-1]"
+}

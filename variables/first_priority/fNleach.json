@@ -1,0 +1,16 @@
+{
+  "Variable": "N leaching/runoff",
+  "Unit": "kg N m-2 s-1",
+  "Comment": "",
+  "Variable name": "fNleach",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fNleach.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "fNleach_tavg-u-hxy-lnd",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "mass_flux_of_carbon_out_of_soil_due_to_leaching_and_runoff",
+  "CMIP7 Description": "Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)",
+  "CMIP7 Title": "Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)"
+}

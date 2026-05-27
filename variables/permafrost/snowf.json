@@ -1,0 +1,16 @@
+{
+  "Variable": "Snowfall rate",
+  "Unit": "kg m-2 s-1",
+  "Comment": "Rate of solid precipitation",
+  "Variable name": "snowf",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "atmos.prsn.tavg-u-hxy-u.mon.glb",
+  "CMIP7 Branded Variable Name": "prsn_tavg-u-hxy-u",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "snowfall_flux",
+  "CMIP7 Description": "Snowfall Flux",
+  "CMIP7 Title": "Snowfall Flux"
+}

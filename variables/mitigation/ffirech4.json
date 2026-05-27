@@ -1,0 +1,17 @@
+{
+  "Variable": "Fire CH4 emission",
+  "Unit": "kg CH4 m-2 s-1",
+  "Comment": "",
+  "Variable name": "ffirech4",
+  "CMOR dimensions": "latitude longitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "Note": "Already in other tabs",
+  "CMIP7 Compound Name": "land.fCH4Fire.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}

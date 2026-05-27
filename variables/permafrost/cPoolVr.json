@@ -1,0 +1,16 @@
+{
+  "Variable": "Vertically resolved soil carbon pool sizes",
+  "Unit": "kg C m-2",
+  "Comment": "Each soil carbon pool vertically resolved in each soil layer with values in terms of volume",
+  "Variable name": "cPoolVr",
+  "CMOR dimensions": "longitude latitude nsoil time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.cSoilPoolsVr.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "mon",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}
