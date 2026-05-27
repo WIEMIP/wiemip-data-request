@@ -1,7 +1,7 @@
 {
   "Variable": "Emission flux of isoprene",
   "Unit": "kg m-2 s-1",
-  "Comment": "isoprene flux - report in kg of species (i.e., kg isoprene)",
+  "Comment": "isoprene flux - report in kg of species (kg isoprene for this variable)",
   "Variable name": "isopr",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
