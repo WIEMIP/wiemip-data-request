@@ -1,0 +1,25 @@
+name: Sync variable request to Airtable
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "WIEMIP_variable_request.json"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync to Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_WORKSPACE_ID: ${{ secrets.AIRTABLE_WORKSPACE_ID }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+        run: python scripts/sync_airtable.py
