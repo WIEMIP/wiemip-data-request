@@ -1,0 +1,16 @@
+{
+  "Variable": "Soil methane flux by layer",
+  "Unit": "kg CH4 m-2 s-1",
+  "Comment": "Each layer should be its own dimension, and should record the CH4 flux produced by each layer",
+  "Variable name": "fch4layer",
+  "CMOR dimensions": "longitude latitude layer time",
+  "Calendar": "noleap",
+  "missing value": "-99999",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fCH4SoilLayer.tavg-sl-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}
