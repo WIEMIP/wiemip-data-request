@@ -75,7 +75,10 @@ Factorial simulations for the 1pctCO2 simulations will exclude certain processes
 ```
 <MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>_<variable_name>_<frequency>_noProcess_<spatial_resolution_short_name>.nc
 ```
-
+Note: For organizational purposes modeling groups can upload simulation results under subdirectories, where the subdirectories are named:
+```
+<MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>/
+```
 
 ## Contents
 
