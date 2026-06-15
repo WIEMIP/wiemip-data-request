@@ -36,49 +36,95 @@ If you're using the CMIP7 compound name (instead of the TRENDY variable name) th
 <MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>_<CMIP7_compound_name>_<spatial_resolution_short_name>.nc
 ```
 
+The CMIP7 compound name includes frequency information, so a separate frequency field is not included.
+
 The tables below contain the short names to use for GCM pattern, frequencies, and spatial resolutions.
 
 ### GCM pattern names
 
-| Long name | Short name |
-|-----------|------------|
-| UKESM1-0-LL | `ukesm` |
-| GFDL-ESM4 | `gfdl` |
-| IPSL-CM6A-LR | `ipsl` |
+| Long name    | Short name |
+| ------------ | ---------- |
+| UKESM1-0-LL  | `ukesm`    |
+| GFDL-ESM4    | `gfdl`     |
+| IPSL-CM6A-LR | `ipsl`     |
 
 See Table 2 for the experiment short names. The frequency field follows CMIP conventions:
 
 ### Frequencies
 
 | Frequency | Short name |
-|-----------|------------|
-| Year | `yr` |
-| Month | `mon` |
-| Day | `day` |
-| 6-hourly | `6hr` |
-| Fixed | `fx` |
+| --------- | ---------- |
+| Year      | `yr`       |
+| Month     | `mon`      |
+| Day       | `day`      |
+| 6-hourly  | `6hr`      |
+| Fixed     | `fx`       |
 
 ### Spatial resolutions
 
 | Resolution                    | Short name |
-|-------------------------------|------------|
+| ----------------------------- | ---------- |
 | 0.5°                          | `05`       |
 | 1°                            | `1`        |
 | custom resolution (e.g., T63) | per-model  |
 
-Please add a note in the README if you're using a non 0.5° or 1° grid.
+Please add a note in the README if you're using a non-0.5° or 1° grid.
 
 ### Factorial simulations
 
-Factorial simulations for the 1pctCO2 simulations will exclude certain processes. To indicate the exclusion of a process from your model, use the following naming convention:
+Factorial simulations for the 1pctCO2 simulations exclude specific processes. To indicate the exclusion of a process from your model, use the following naming convention:
 
 ```
 <MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>_<variable_name>_<frequency>_noProcess_<spatial_resolution_short_name>.nc
 ```
-Note: For organizational purposes modeling groups can upload simulation results under subdirectories, where the subdirectories are named:
+
+If using a CMIP7 compound name, omit the separate frequency field because it is already included in the compound name.
+
+Multiple excluded processes should be joined by underscores. For consistency, excluded processes should be ordered alphabetically by process name, for example:
+
+```
+noFire_noPermafrost
+```
+
+Process names are:
+
+| Process            | Naming convention name |
+| ------------------ | ---------------------- |
+| Nitrogen           | `Nitrogen`             |
+| Fire               | `Fire`                 |
+| Permafrost         | `Permafrost`           |
+| Wetlands           | `Wetlands`             |
+| Dynamic Vegetation | `DynVeg`               |
+| BVOC               | `BVOC`                 |
+
+For example, yearly vegetation carbon from LPJ-EOSIM for a BGC simulation without fire would be:
+
+```
+LPJ_EOSIM_ukesm_bgc_cVeg_yr_noFire_05.nc
+```
+
+### Optional output directories
+
+For organizational purposes, modeling groups may upload simulation results under subdirectories named:
+
 ```
 <MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>/
 ```
+
+For factorial simulations, suffix the directory name with the omitted process or processes:
+
+```
+<MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>_noFire/
+```
+
+or
+
+```
+<MODEL_NAME>_<gcm_pattern_short_name>_<experiment_short_name>_noFire_noNitrogen/
+```
+
+Directory naming should follow the same process-ordering convention as filenames.
+
 
 ## Contents
 
