@@ -1,0 +1,16 @@
+{
+  "Variable": "Land Ice Area Fraction",
+  "Unit": "%",
+  "Comment": "Fraction of the grid cell covered with glacier/land ice (permanent).. Fixed field - report only once.",
+  "Variable name": "sftgif",
+  "CMOR dimensions": "longitude latitude",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "fixed",
+  "CMIP7 Compound Name": "land.sftgif.ti-u-hxy-u.fx.glb",
+  "CMIP7 Branded Variable Name": "sftgif_ti-u-hxy-u",
+  "CMIP7 Frequency": "fx",
+  "CF Standard Name": "land_ice_area_fraction",
+  "CMIP7 Description": "fraction of grid cell occupied by permanent ice (i.e., glaciers).",
+  "CMIP7 Title": "Land Ice Area Percentage"
+}

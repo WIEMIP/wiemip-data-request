@@ -1,0 +1,16 @@
+{
+  "Variable": "Land Area Fraction",
+  "Unit": "%",
+  "Comment": "Percentage of the grid cell occupied by land (including lakes).",
+  "Variable name": "sftlf",
+  "CMOR dimensions": "longitude latitude",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "fixed",
+  "CMIP7 Compound Name": "atmos.sftlf.ti-u-hxy-u.fx.glb",
+  "CMIP7 Branded Variable Name": "sftlf_ti-u-hxy-u",
+  "CMIP7 Frequency": "fx",
+  "CF Standard Name": "land_area_fraction",
+  "CMIP7 Description": "Percentage of horizontal area occupied by land.",
+  "CMIP7 Title": "Percentage of the Grid Cell Occupied by Land (Including Lakes)"
+}
