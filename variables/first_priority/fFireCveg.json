@@ -1,7 +1,7 @@
 {
-  "Variable": "CO2 Emission from Cveg due to Fire",
+  "Variable": "C Emission from Cveg due to Fire",
   "Unit": "kg C m-2 s-1",
-  "Comment": "contribution of combustion of live biomass to total CO2 emissions from fire",
+  "Comment": "contribution of combustion of live biomass to total C emissions from fire",
   "Variable name": "fFireCveg",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
