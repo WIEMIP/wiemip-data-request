@@ -1,7 +1,7 @@
 {
-  "Variable": "cProduct NOT REQUIRED for 1pctCO2 runs unless your model needs wood harvest",
+  "Variable": "cProduct",
   "Unit": "kg C m-2",
-  "Comment": "Not required as woodharvest is turned off and no LU change for 1pctruns",
+  "Comment": "carbon mass of forestry and ag products",
   "Variable name": "cProduct",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
