@@ -1,7 +1,7 @@
 {
   "Variable": "Total methane flux",
   "Unit": "kg CH4 m-2 s-1",
-  "Comment": "Units should be in kg C CH4",
+  "Comment": "Units should be in kg CH4",
   "Variable name": "ch4",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
