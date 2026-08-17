@@ -44,6 +44,7 @@ The tables below contain the short names to use for GCM pattern, frequencies, an
 
 | Long name    | Short name |
 | ------------ | ---------- |
+| stable       | stable.    |
 | UKESM1-0-LL  | `ukesm`    |
 | GFDL-ESM4    | `gfdl`     |
 | IPSL-CM6A-LR | `ipsl`     |
@@ -100,7 +101,7 @@ Process names are:
 For example, yearly vegetation carbon from LPJ-EOSIM for a BGC simulation without fire would be:
 
 ```
-LPJ_EOSIM_ukesm_bgc_cVeg_yr_noFire_05.nc
+LPJ_EOSIM_stable_bgc_cVeg_yr_noFire_05.nc
 ```
 
 ### Optional output directories
