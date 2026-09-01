@@ -1,7 +1,7 @@
 {
   "Variable": "N\u2082O emission from denitrification",
   "Unit": "kg N m-2 s-1",
-  "Comment": "Report in N2O-N",
+  "Comment": "N2O emission from denitrification in natural soils, excluding agricultural soils. Report in N2O-N.",
   "Variable name": "fN2Odenit",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",

@@ -1,7 +1,7 @@
 {
   "Variable": "Wetland methane emissions",
   "Unit": "kg CH4 m-2 s-1",
-  "Comment": "Units should be in kg CH4",
+  "Comment": "Report in in kg CH4. Defined as emissions from all natural wetlands (including peatlands, non-inundated wetlands, etc), excluding agricultural soils.",
   "Variable name": "wetCH4",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
