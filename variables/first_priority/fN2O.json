@@ -1,7 +1,7 @@
 {
   "Variable": "N2O flux",
   "Unit": "kg N m-2 s-1",
-  "Comment": "Total land N2O flux - report in N2O-N",
+  "Comment": "Total N₂O flux from natural soils : Net N2O emissions in natural soils, excluding agricultural soils, calculated as fNO2 = fN2Odenit + fN2Onit. Report in N2O-N.",
   "Variable name": "fN2O",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",

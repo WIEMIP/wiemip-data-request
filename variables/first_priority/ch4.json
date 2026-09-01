@@ -1,7 +1,7 @@
 {
-  "Variable": "Total methane flux",
+  "Variable": "Total methane flux from natural soils",
   "Unit": "kg CH4 m-2 s-1",
-  "Comment": "Units should be in kg CH4",
+  "Comment": "net CH4 flux from natural soils, should be calculated as wetCH4 (positive) + fch4soil (negative). Report in kgCH4.",
   "Variable name": "ch4",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
