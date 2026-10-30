@@ -1,6 +1,7 @@
 {
   "Variable": "NOx emissions",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in NOx-N",
   "Variable name": "fNOx",
   "CMOR dimensions": "longitude latitude time",

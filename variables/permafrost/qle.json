@@ -1,6 +1,7 @@
 {
   "Variable": "Latent heat flux",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "Latent heat flux into the boundary layer (positive into atmosphere)",
   "Variable name": "qle",
   "CMOR dimensions": "longitude latitude time",

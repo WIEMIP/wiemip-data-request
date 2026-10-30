@@ -1,6 +1,7 @@
 {
   "Variable": "Mean Number of Fires",
   "Unit": "n km-2 day-1",
+  "cf_compliant_units": "km-2 day-1",
   "Comment": "Monthly mean number of fires",
   "Variable name": "firenrTotal",
   "CMOR dimensions": "latitude longitude time",

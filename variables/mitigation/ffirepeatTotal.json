@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon emitted from peat fires",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Carbon emissions from peat fires; part of ffire",
   "Variable name": "ffirepeatTotal",
   "CMOR dimensions": "latitude longitude time",

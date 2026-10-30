@@ -1,6 +1,7 @@
 {
   "Variable": "PFT-level CH4 emission",
   "Unit": "kg CH4 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "fpftch4",
   "CMOR dimensions": "longitude latitude pft time",

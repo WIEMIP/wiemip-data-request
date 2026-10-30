@@ -1,6 +1,7 @@
 {
   "Variable": "Weighted Mean Fireline Intensity",
   "Unit": "kW m-1",
+  "cf_compliant_units": "kW m-1",
   "Comment": "Weighted by burned area; includes total and PFT",
   "Variable name": "fireintsTotal",
   "CMOR dimensions": "latitude longitude time",

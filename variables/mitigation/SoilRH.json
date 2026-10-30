@@ -1,6 +1,7 @@
 {
   "Variable": "Vertically resolved soil respiration",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Soil respiration in each soil layer, if available",
   "Variable name": "SoilRH",
   "CMOR dimensions": "longitude latitude nsoil time",

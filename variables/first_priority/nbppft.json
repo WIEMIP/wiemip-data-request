@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level NBP",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "If soils are associated with PFT fraction",
   "Variable name": "nbppft",
   "CMOR dimensions": "longitude latitude pft time",

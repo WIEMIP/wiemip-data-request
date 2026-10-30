@@ -1,6 +1,7 @@
 {
   "Variable": "total ecosystem nitrogen loss",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Total N lost to groundwater, rivers or atmosphere (including NHx, NOx, N2O, N2 and leaching).  Previously reported in units, kg C N m-2 s-1. Please remove the letter N in output files.",
   "Variable name": "fNloss",
   "CMOR dimensions": "longitude latitude time",

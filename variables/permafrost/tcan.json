@@ -1,6 +1,7 @@
 {
   "Variable": "Canopy temperature",
   "Unit": "K",
+  "cf_compliant_units": "K",
   "Comment": "Canopy or vegetation temperature, or temperature used in photosynthesis calculations",
   "Variable name": "tcan",
   "CMOR dimensions": "longitude latitude time",

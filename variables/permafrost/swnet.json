@@ -1,6 +1,7 @@
 {
   "Variable": "Net shortwave radiation",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "Incident shortwave radiation minus simulated outgoing shortwave radiation (positive into ground)",
   "Variable name": "swnet",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Weighted Mean Fire Size",
   "Unit": "km2",
+  "cf_compliant_units": "km2",
   "Comment": "Weighted by number of fires",
   "Variable name": "firesizeTotal",
   "CMOR dimensions": "latitude longitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Surface air temperature",
   "Unit": "K",
+  "cf_compliant_units": "K",
   "Comment": "Near surface air temperature",
   "Variable name": "tair",
   "CMOR dimensions": "longitude latitude time",

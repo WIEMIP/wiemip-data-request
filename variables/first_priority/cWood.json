@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon in Wood",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "including sapwood and hardwood. ",
   "Variable name": "cWood",
   "CMOR dimensions": "longitude latitude time",

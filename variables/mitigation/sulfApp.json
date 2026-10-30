@@ -1,6 +1,7 @@
 {
   "Variable": "Sulfate applied (wetlands)",
-  "Unit": "kg C /ha yr-1",
+  "Unit": "kg S m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "sulfApp",
   "CMOR dimensions": "longitude latitude time",

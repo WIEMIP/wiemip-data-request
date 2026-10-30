@@ -1,6 +1,7 @@
 {
   "Variable": "Fuel Moisture for Different Fuel Classes",
-  "Unit": "",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "Fraction of dry mass (0\u20131); by fuel class",
   "Variable name": "mfuelTotal",
   "CMOR dimensions": "latitude longitude fuelclass time",

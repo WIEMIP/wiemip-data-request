@@ -1,6 +1,7 @@
 {
   "Variable": "cOther",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",
   "Variable name": "cOther",
   "CMOR dimensions": "longitude latitude time",

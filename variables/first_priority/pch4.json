@@ -1,6 +1,7 @@
 {
   "Variable": "Permafrost CH4 flux",
   "Unit": "kg CH4 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in units of CH4",
   "Variable name": "pch4",
   "CMOR dimensions": "longitude latitude time",

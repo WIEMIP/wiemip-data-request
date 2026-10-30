@@ -1,6 +1,7 @@
 {
   "Variable": "CH4 emission by land use type",
   "Unit": "kg CH4 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Constant LU ",
   "Variable name": "fluch4",
   "CMOR dimensions": "longitude latitude lutype time",

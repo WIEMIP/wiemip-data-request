@@ -1,6 +1,7 @@
 {
   "Variable": "Soil methane flux by layer",
   "Unit": "kg CH4 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Each layer should be its own dimension, and should record the CH4 flux produced by each layer",
   "Variable name": "fch4layer",
   "CMOR dimensions": "longitude latitude layer time",

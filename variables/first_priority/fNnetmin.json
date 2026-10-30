@@ -1,6 +1,7 @@
 {
   "Variable": "net Nitrogen mineralisation",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Net nitrogen release from soil and litter as the outcome of nitrogen immobilisation and gross mineralisation.  Previously reported in units, kg C N m-2 s-1. Please remove the letter N in output files.",
   "Variable name": "fNnetmin",
   "CMOR dimensions": "longitude latitude time",

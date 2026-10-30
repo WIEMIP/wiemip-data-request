@@ -1,6 +1,7 @@
 {
   "Variable": "Shortwave albedo",
   "Unit": "(-)",
+  "cf_compliant_units": "1",
   "Comment": "Shortwave albedo",
   "Variable name": "swalbedo",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Prescribed fire area",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Prescribed fire area as a fraction of grid cell",
   "Variable name": "firePrescribed",
   "CMOR dimensions": "longitude latitude time",

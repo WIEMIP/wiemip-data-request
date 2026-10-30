@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Carbon in Soil",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "cSoilpft",
   "CMOR dimensions": "longitude latitude pft time",

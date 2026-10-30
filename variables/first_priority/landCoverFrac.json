@@ -1,6 +1,7 @@
 {
   "Variable": "Fractional Land Cover of PFT",
-  "Unit": "",
+  "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Using model-specific PFT definition",
   "Variable name": "landCoverFrac",
   "CMOR dimensions": "longitude latitude pft time",

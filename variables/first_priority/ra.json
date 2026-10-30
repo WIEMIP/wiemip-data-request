@@ -1,6 +1,7 @@
 {
   "Variable": "Autotrophic (Plant) Respiration",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "ra",
   "CMOR dimensions": "longitude latitude time",

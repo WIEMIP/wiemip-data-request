@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon Flux from Wood to Litter",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "fWoodLitter",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon in Above-ground Litter Pool",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "cLitter",
   "CMOR dimensions": "longitude latitude time",

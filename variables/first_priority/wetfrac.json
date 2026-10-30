@@ -1,6 +1,7 @@
 {
   "Variable": "Wetland fraction",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Wetland fraction",
   "Variable name": "wetfrac",
   "CMOR dimensions": "longitude latitude time",

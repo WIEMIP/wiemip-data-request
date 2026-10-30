@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Nitrogen in Litter",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Parallel the corresponding carbon variable (i.e., cLitter) at PFT level.",
   "Variable name": "nLitterpft",
   "CMOR dimensions": "longitude latitude pft time",

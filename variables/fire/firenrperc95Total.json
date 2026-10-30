@@ -1,6 +1,7 @@
 {
   "Variable": "95th Percentile of Number of Fires",
   "Unit": "n km-2 day-1",
+  "cf_compliant_units": "km-2 day-1",
   "Comment": "95th percentile of daily fires within month",
   "Variable name": "firenrperc95Total",
   "CMOR dimensions": "latitude longitude time",

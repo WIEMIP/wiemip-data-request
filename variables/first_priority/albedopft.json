@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Broadband Albedo",
   "Unit": "fraction",
+  "cf_compliant_units": "1",
   "Comment": "if available provide black and white sky albedo. If only blue sky albedo is available than we need the fraction of incoming diffuse shortwave",
   "Variable name": "albedopft",
   "CMOR dimensions": "longitude latitude pft time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Soil layer ice content",
   "Unit": "kg m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Soil ice content in each soil layer",
   "Variable name": "soilIce",
   "CMOR dimensions": "longitude latitude nsoil time",

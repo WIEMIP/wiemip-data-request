@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon Flux from individual soil pools",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "rhPools",
   "CMOR dimensions": "longitude latitude pool time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Land Ice Area Fraction",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Fraction of the grid cell covered with glacier/land ice (permanent).. Fixed field - report only once.",
   "Variable name": "sftgif",
   "CMOR dimensions": "longitude latitude",

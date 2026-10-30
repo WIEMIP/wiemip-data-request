@@ -1,6 +1,7 @@
 {
   "Variable": "Denitrification rate",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "fNdenitri",
   "CMOR dimensions": "longitude latitude time",

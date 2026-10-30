@@ -1,6 +1,7 @@
 {
   "Variable": "Burnt Area Fraction",
-  "Unit": "fraction",
+  "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "fraction of entire grid cell  that is covered by burnt vegetation.",
   "Variable name": "burntArea",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Net longwave radiation",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "Incident longwave radiation minus simulated outgoing longwave radiation (positive into ground)",
   "Variable name": "lwnet",
   "CMOR dimensions": "longitude latitude time",

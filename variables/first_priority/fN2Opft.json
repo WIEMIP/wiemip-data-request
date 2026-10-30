@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level N2O flux",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "PFT-level N2O flux - report in N2O-N",
   "Variable name": "fN2Opft",
   "CMOR dimensions": "longitude latitude time",

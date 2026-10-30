@@ -1,6 +1,7 @@
 {
   "Variable": "Soil moisture per layer",
   "Unit": "kg m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Average soil moisture in each soil layer",
   "Variable name": "mrsoLayer",
   "CMOR dimensions": "longitude latitude layer time",

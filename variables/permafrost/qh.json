@@ -1,6 +1,7 @@
 {
   "Variable": "Sensible heat flux",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "Sensible heat flux into the boundary layer (positive into atmosphere)",
   "Variable name": "qh",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Dissolved organic carbon flux",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Loss of organic carbon dissolved in ground water or rivers (positive out of grid cell)",
   "Variable name": "docFlux",
   "CMOR dimensions": "longitude latitude time",

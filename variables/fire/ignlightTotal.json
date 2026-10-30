@@ -1,6 +1,7 @@
 {
   "Variable": "Ignitions Caused by Lightning",
   "Unit": "n km-2 day-1",
+  "cf_compliant_units": "km-2 day-1",
   "Comment": "Lightning-caused ignitions",
   "Variable name": "ignlightTotal",
   "CMOR dimensions": "latitude longitude time",

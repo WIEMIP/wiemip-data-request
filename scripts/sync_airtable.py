@@ -40,6 +40,7 @@ BATCH_SIZE = 10  # Airtable max records per request
 FIELD_TYPES = {
     "Variable": "singleLineText",
     "Unit": "singleLineText",
+    "cf_compliant_units": "singleLineText",
     "Comment": "multilineText",
     "Variable name": "singleLineText",
     "CMOR dimensions": "singleLineText",

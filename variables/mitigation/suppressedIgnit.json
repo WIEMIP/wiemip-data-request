@@ -1,6 +1,7 @@
 {
   "Variable": "Fire ignitions suppressed",
-  "Unit": "#",
+  "Unit": "n km-2 day-1",
+  "cf_compliant_units": "km-2 day-1",
   "Comment": "Number of ignitions suppressed in the fire module",
   "Variable name": "suppressedIgnit",
   "CMOR dimensions": "longitude latitude time",

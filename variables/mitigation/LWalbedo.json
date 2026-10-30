@@ -1,6 +1,7 @@
 {
   "Variable": "Longwave albedo",
   "Unit": "(-)",
+  "cf_compliant_units": "1",
   "Comment": "Longwave albedo",
   "Variable name": "LWalbedo",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Leaf Area Index",
-  "Unit": "",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "projected leaf area",
   "Variable name": "lai",
   "CMOR dimensions": "longitude latitude time",

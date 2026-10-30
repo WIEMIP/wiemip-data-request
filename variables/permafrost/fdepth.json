@@ -1,6 +1,7 @@
 {
   "Variable": "Frozen layer thickness",
   "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "Freeze depth; depth to zero centigrade isotherm in non-permafrost",
   "Variable name": "fdepth",
   "CMOR dimensions": "longitude latitude time",

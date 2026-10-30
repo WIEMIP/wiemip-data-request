@@ -1,6 +1,7 @@
 {
   "Variable": "Soil moisture ",
   "Unit": "kg m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Compute the mass per unit area  (summed over all soil layers) of water in all phases.",
   "Variable name": "mrso",
   "CMOR dimensions": "longitude latitude time",

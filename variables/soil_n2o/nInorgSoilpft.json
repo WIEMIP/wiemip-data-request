@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Inorganic Nitrogen in Soil",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Parallel the corresponding carbon variable (i.e., cSoilpft) at PFT level.",
   "Variable name": "nInOrgSoilpft",
   "CMOR dimensions": "longitude latitude pft time",

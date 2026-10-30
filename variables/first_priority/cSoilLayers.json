@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon in individual soil layers",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "cSoilLayers",
   "CMOR dimensions": "longitude latitude layer time",

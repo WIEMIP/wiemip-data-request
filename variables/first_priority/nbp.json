@@ -1,6 +1,7 @@
 {
   "Variable": "Net Biospheric Production",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "This is the net flux between land and atmosphere defined as photosynthesis MINUS the sum of plant and soil respiration, carbonfluxes from fire, land use fluxes, and any other C flux in/out of the ecosystem (eg DIC, DOC, VOCs,...). Positive flux is into the land. NBP SHOULD be equal to changes in total carbon reservoirs. Previously reported in units, kg C C m-2 s-1. Please remove the letter C in output files.",
   "Variable name": "nbp",
   "CMOR dimensions": "longitude latitude time",

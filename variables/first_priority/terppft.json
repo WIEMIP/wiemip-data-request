@@ -1,6 +1,7 @@
 {
   "Variable": "Emission flux of mono-terpenes by vegetation type",
   "Unit": "kg m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "terpene - report in kg of species",
   "Variable name": "terppft",
   "CMOR dimensions": "longitude latitude pft time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Weighted Mean Fire Duration",
   "Unit": "s",
+  "cf_compliant_units": "s",
   "Comment": "Weighted by number of fires",
   "Variable name": "firedurationTotal",
   "CMOR dimensions": "latitude longitude time",

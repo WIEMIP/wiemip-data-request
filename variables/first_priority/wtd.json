@@ -1,6 +1,7 @@
 {
   "Variable": "Perched water table depth",
   "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "Depth to top of water table; positive if below surface, negative if water is ponding on surface",
   "Variable name": "wtd",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Emission flux of methanol",
   "Unit": "kg m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "methanol - report in kg of species",
   "Variable name": "methanol",
   "CMOR dimensions": "longitude latitude time",

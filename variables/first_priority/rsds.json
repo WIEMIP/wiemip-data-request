@@ -1,6 +1,7 @@
 {
   "Variable": "Surface Downwelling Shortwave Radiation",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "surface_downwelling_shortwave_flux_in_air",
   "Variable name": "rsds",
   "CMOR dimensions": "longitude latitude time",

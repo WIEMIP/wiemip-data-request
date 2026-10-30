@@ -1,6 +1,7 @@
 {
   "Variable": "cProduct",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "carbon mass of forestry and ag products",
   "Variable name": "cProduct",
   "CMOR dimensions": "longitude latitude time",

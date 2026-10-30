@@ -1,6 +1,7 @@
 {
   "Variable": "Surface specific humidity",
   "Unit": "kg kg-1",
+  "cf_compliant_units": "kg kg-1",
   "Comment": "Near surface specific humidity",
   "Variable name": "qair",
   "CMOR dimensions": "longitude latitude time",

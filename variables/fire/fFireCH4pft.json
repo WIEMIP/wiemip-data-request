@@ -1,6 +1,7 @@
 {
   "Variable": "CH4 emitted from fires by pft",
   "Unit": "kg CH4 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in CH4",
   "Variable name": "fFireCH4pft",
   "CMOR dimensions": "latitude longitude pft time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Absorbed fraction incoming PAR",
   "Unit": "(-)",
+  "cf_compliant_units": "1",
   "Comment": "Absorbed fraction of incoming photosynthetically active radiation",
   "Variable name": "fpar",
   "CMOR dimensions": "longitude latitude time",

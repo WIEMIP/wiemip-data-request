@@ -1,6 +1,7 @@
 {
   "Variable": "95th Percentile of Fire Size",
   "Unit": "km2",
+  "cf_compliant_units": "km2",
   "Comment": "95th percentile fire size within month",
   "Variable name": "firesizeperc95Total",
   "CMOR dimensions": "latitude longitude time",

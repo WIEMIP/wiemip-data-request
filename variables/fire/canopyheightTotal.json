@@ -1,6 +1,7 @@
 {
   "Variable": "Mean Canopy Height",
   "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "Mean height of trees >5m (exclude shorter vegetation)",
   "Variable name": "canopyheightTotal",
   "CMOR dimensions": "latitude longitude time",

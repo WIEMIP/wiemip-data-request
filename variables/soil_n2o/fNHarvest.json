@@ -1,6 +1,7 @@
 {
   "Variable": "Harvest N",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Constant 2024 LU",
   "Variable name": "fNHarvest",
   "CMOR dimensions": "longitude latitude time",

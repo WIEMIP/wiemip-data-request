@@ -1,6 +1,7 @@
 {
   "Variable": "Layered Nitrogen Organic in Soil (including below-ground litter) ",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "nOrgSoilLayer",
   "CMOR dimensions": "longitude latitude layer time",

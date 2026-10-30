@@ -1,6 +1,7 @@
 {
   "Variable": "C Emission from Litter due to Fire",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "contribution of combustion of above ground necromass/litter to total C emissions from fire",
   "Variable name": "fFireLitter",
   "CMOR dimensions": "longitude latitude time",

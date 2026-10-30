@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Nitrogen in Vegetation",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Parallel the corresponding carbon variable (i.e., cVegpft).",
   "Variable name": "nVegpft",
   "CMOR dimensions": "longitude latitude pft time",

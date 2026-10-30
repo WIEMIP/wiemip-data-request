@@ -1,6 +1,7 @@
 {
   "Variable": "Snow water equivalent",
   "Unit": "kg m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Total water mass of snow pack, including ice and liquid water",
   "Variable name": "swe",
   "CMOR dimensions": "longitude latitude time",

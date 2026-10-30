@@ -1,6 +1,7 @@
 {
   "Variable": "Nitrogen Inorganic (NH4+ and NO3-) in Soil (including below-ground litter)",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "nInorgSoil",
   "CMOR dimensions": "longitude latitude time",

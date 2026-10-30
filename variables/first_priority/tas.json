@@ -1,6 +1,7 @@
 {
   "Variable": "Near-Surface Air Temperature",
   "Unit": "K",
+  "cf_compliant_units": "K",
   "Comment": "near-surface (usually, 2 meter) air temperature.",
   "Variable name": "tas",
   "CMOR dimensions": "longitude latitude time",

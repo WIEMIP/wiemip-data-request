@@ -1,6 +1,7 @@
 {
   "Variable": "Gridcell Broadband albedo",
   "Unit": "fraction",
+  "cf_compliant_units": "1",
   "Comment": "",
   "Variable name": "albedo",
   "CMOR dimensions": "longitude latitude time",

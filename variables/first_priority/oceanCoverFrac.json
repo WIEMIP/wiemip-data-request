@@ -1,6 +1,7 @@
 {
   "Variable": "Fractional Ocean Cover",
-  "Unit": "",
+  "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "if not applicable do not report",
   "Variable name": "oceanCoverFrac",
   "CMOR dimensions": "longitude latitude time",

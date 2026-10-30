@@ -1,6 +1,7 @@
 {
   "Variable": "Vertically resolved soil carbon pool sizes",
-  "Unit": "kg C m-2",
+  "Unit": "kg C m-3",
+  "cf_compliant_units": "kg m-3",
   "Comment": "Each soil carbon pool vertically resolved in each soil layer with values in terms of volume",
   "Variable name": "cPoolVr",
   "CMOR dimensions": "longitude latitude nsoil time",

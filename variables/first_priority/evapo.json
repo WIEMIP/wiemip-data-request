@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Soil evaporation",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "",
   "Variable name": "evapo",
   "CMOR dimensions": "longitude latitude pft time",

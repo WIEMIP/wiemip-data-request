@@ -1,6 +1,7 @@
 {
   "Variable": "Rainfall rate",
   "Unit": "kg m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Rate of liquid precipitation",
   "Variable name": "rainf",
   "CMOR dimensions": "longitude latitude time",

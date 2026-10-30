@@ -1,6 +1,7 @@
 {
   "Variable": "Tree Mortality Caused by Fire",
-  "Unit": "%",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "Fraction of tree-covered area affected",
   "Variable name": "firemortalityTotal",
   "CMOR dimensions": "latitude longitude time",

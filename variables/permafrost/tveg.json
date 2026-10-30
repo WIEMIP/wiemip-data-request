@@ -1,6 +1,7 @@
 {
   "Variable": "Transpiration",
   "Unit": "kg m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Total plant transpiration (always positive)",
   "Variable name": "tveg",
   "CMOR dimensions": "longitude latitude time",

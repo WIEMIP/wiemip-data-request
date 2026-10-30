@@ -1,6 +1,7 @@
 {
   "Variable": "Low Vegetation Cover",
-  "Unit": "%",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "Fraction of vegetation <5m height",
   "Variable name": "lowcoverTotal",
   "CMOR dimensions": "latitude longitude time",

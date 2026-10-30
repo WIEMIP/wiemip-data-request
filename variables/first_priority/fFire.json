@@ -1,6 +1,7 @@
 {
   "Variable": "CO2 Emission from Fire",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "CO2 emissions from natural fires + human ignition fires as calculated by the fire module of the DGVM reported in units, kg C C m-2 s-1. Please remove the letter C in output files.",
   "Variable name": "fFire",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Nitrogen in above-ground Litter Pool",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "",
   "Variable name": "nLitter",
   "CMOR dimensions": "longitude latitude time",

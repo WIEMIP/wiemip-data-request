@@ -1,6 +1,7 @@
 {
   "Variable": "Burnt Area Fraction",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Total PFT burnt area fraction",
   "Variable name": "burntareaTotal",
   "CMOR dimensions": "latitude longitude time",

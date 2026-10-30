@@ -1,6 +1,7 @@
 {
   "Variable": "Permafrost CO2 flux",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in units of C. Submit global variables, permafrost masks will be determined by each analysis.",
   "Variable name": "pco2",
   "CMOR dimensions": "longitude latitude time",

@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level Leaf Area Index",
-  "Unit": "",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "projected leaf area per PFT",
   "Variable name": "laipft",
   "CMOR dimensions": "longitude latitude pft time",

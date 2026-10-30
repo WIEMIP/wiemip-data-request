@@ -1,6 +1,7 @@
 {
   "Variable": "NH3 volatilization",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in NH3-N",
   "Variable name": "fNH3vol",
   "CMOR dimensions": "longitude latitude time",

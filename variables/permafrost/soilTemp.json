@@ -1,6 +1,7 @@
 {
   "Variable": "Soil layer temperature",
   "Unit": "K",
+  "cf_compliant_units": "K",
   "Comment": "Average soil temperature in each soil layer",
   "Variable name": "soilTemp",
   "CMOR dimensions": "longitude latitude nsoil time",

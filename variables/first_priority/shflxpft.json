@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level sensible heat flux",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "required only for models that solve the energy/water balance at the vegtype level",
   "Variable name": "shflxpft",
   "CMOR dimensions": "longitude latitude pft time",

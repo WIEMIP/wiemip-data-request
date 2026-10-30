@@ -1,6 +1,7 @@
 {
-  "Variable": "Vegtype level snow depth or snow water equivalent",
-  "Unit": "m m-2",
+  "Variable": "Vegtype level snow depth",
+  "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "",
   "Variable name": "snow_depthpft",
   "CMOR dimensions": "longitude latitude pft time",

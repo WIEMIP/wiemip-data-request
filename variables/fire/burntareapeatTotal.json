@@ -1,6 +1,7 @@
 {
   "Variable": "Burnt Area Fraction from Peat Fire",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Area burned from peatland fires; part of burntarea-total",
   "Variable name": "burntareapeatTotal",
   "CMOR dimensions": "latitude longitude time",

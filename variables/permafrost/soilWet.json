@@ -1,6 +1,7 @@
 {
   "Variable": "Total soil wetness",
   "Unit": "(-)",
+  "cf_compliant_units": "1",
   "Comment": "Vertically integrated soil moisture divided by maximum allowable soil moisture above wilting point",
   "Variable name": "soilWet",
   "CMOR dimensions": "longitude latitude time",

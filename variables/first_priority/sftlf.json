@@ -1,6 +1,7 @@
 {
   "Variable": "Land Area Fraction",
   "Unit": "%",
+  "cf_compliant_units": "%",
   "Comment": "Percentage of the grid cell occupied by land (including lakes).",
   "Variable name": "sftlf",
   "CMOR dimensions": "longitude latitude",

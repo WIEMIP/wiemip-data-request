@@ -1,6 +1,7 @@
 {
   "Variable": "Surface wind speed",
   "Unit": "m s-1",
+  "cf_compliant_units": "m s-1",
   "Comment": "Near surface wind magnitude",
   "Variable name": "wind",
   "CMOR dimensions": "longitude latitude time",

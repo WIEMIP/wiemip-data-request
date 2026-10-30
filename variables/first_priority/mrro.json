@@ -1,6 +1,7 @@
 {
   "Variable": "Total Runoff",
   "Unit": "kg m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "compute the total runoff (including \"drainage\" through the base of the soil model) leaving the land portion of the grid cell.",
   "Variable name": "mrro",
   "CMOR dimensions": "longitude latitude time",

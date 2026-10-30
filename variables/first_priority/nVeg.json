@@ -1,6 +1,7 @@
 {
   "Variable": "Nitrogen in Vegetation",
   "Unit": "kg N m-2 ",
+  "cf_compliant_units": "kg m-2",
   "Comment": "Parallel the corresponding carbon variable (i.e., cVeg)",
   "Variable name": "nVeg",
   "CMOR dimensions": "longitude latitude time",

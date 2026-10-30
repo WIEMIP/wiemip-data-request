@@ -1,6 +1,7 @@
 {
   "Variable": "Weighted Mean Fire Rate of Spread",
   "Unit": "m s-1",
+  "cf_compliant_units": "m s-1",
   "Comment": "Weighted by burned area",
   "Variable name": "firerosTotal",
   "CMOR dimensions": "latitude longitude time",

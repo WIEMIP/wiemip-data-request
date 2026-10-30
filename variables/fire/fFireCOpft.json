@@ -1,6 +1,7 @@
 {
   "Variable": "CO emitted from fires by pft",
   "Unit": "kg CO m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Report in CO",
   "Variable name": "fFireCOpft",
   "CMOR dimensions": "latitude longitude pft time",

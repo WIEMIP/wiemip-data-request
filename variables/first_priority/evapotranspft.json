@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype level evapotranspiration",
   "Unit": "W m-2",
+  "cf_compliant_units": "W m-2",
   "Comment": "If possible we would prefer to have two separated fluxes for tree transpiration and ecosystem evaporation. The sum of the two is the total evapotranspiration. We would prefer water fluxes expressed in energy terms (W/m2).",
   "Variable name": "evapotranspft",
   "CMOR dimensions": "longitude latitude pft time",

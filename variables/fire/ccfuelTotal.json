@@ -1,6 +1,7 @@
 {
   "Variable": "Combustion Completeness of Different Fuel Classes",
-  "Unit": "",
+  "Unit": "1",
+  "cf_compliant_units": "1",
   "Comment": "Fraction of fuel combusted (0\u20131); by fuel class",
   "Variable name": "ccfuelTotal",
   "CMOR dimensions": "latitude longitude fuelclass time",

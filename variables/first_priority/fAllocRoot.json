@@ -1,6 +1,7 @@
 {
   "Variable": "Vegtype NPP allocation to Root",
   "Unit": "kg C m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "",
   "Variable name": "fAllocRoot",
   "CMOR dimensions": "longitude latitude pft time",

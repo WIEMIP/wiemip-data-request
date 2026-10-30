@@ -1,6 +1,7 @@
 {
   "Variable": "N2 flux",
   "Unit": "kg N m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
   "Comment": "Total land denitrification N2 flux - report in N2-N",
   "Variable name": "fN2",
   "CMOR dimensions": "longitude latitude time",

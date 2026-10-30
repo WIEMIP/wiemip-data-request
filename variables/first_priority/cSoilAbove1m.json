@@ -1,6 +1,7 @@
 {
   "Variable": "Carbon in Soil above 1m",
   "Unit": "kg C m-2",
+  "cf_compliant_units": "kg m-2",
   "Comment": "cSoil = cSoilAbove1m + cSoilBelow1m. Only report if your model has vertically resolved soil carbon.",
   "Variable name": "cSoilAbove1m",
   "CMOR dimensions": "longitude latitude time",

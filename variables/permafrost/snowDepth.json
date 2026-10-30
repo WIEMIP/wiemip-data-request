@@ -1,6 +1,7 @@
 {
   "Variable": "Total snow depth",
   "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "Total snow depth",
   "Variable name": "snowDepth",
   "CMOR dimensions": "longitude latitude time",

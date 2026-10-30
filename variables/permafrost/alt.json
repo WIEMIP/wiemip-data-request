@@ -1,6 +1,7 @@
 {
   "Variable": "Active layer thickness",
   "Unit": "m",
+  "cf_compliant_units": "m",
   "Comment": "Thaw depth; depth to zero centigrade isotherm in permafrost",
   "Variable name": "alt",
   "CMOR dimensions": "longitude latitude time",
