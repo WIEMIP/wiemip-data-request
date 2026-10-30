@@ -155,6 +155,22 @@ def create_base(workspace_id: str, sheets: dict) -> str:
     return base_id
 
 
+def ensure_fields(base_id: str, sheets: dict):
+    """Add fields that are new since the base was created."""
+    meta = api_request("GET", f"{API_BASE}/meta/bases/{base_id}/tables")
+    tables = {t["name"]: t for t in meta["tables"]}
+    for sheet_name, rows in sheets.items():
+        table = tables[sheet_name]
+        existing = {f["name"] for f in table["fields"]}
+        for field in fields_for_sheet(sheet_name, rows):
+            if field["name"] in existing:
+                continue
+            url = f"{API_BASE}/meta/bases/{base_id}/tables/{table['id']}/fields"
+            api_request("POST", url, field)
+            print(f"  Added field {field['name']!r} to {sheet_name}")
+            time.sleep(0.25)
+
+
 def list_records(base_id: str, table_name: str) -> list[str]:
     record_ids = []
     encoded = urllib.parse.quote(table_name, safe="")
@@ -242,6 +258,8 @@ def main():
         os.environ["AIRTABLE_BASE_ID"] = base_id
     else:
         print(f"Using existing base: {base_id}")
+        # Before clearing, so a schema failure doesn't leave tables empty
+        ensure_fields(base_id, sheets)
         for name in sheets:
             print(f"  Clearing {name} ...")
             existing = list_records(base_id, name)
