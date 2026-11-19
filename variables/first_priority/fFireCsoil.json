@@ -1,8 +1,8 @@
 {
-  "Variable": "CO2 Emission from Csoil due to Fire",
+  "Variable": "C Emission from Csoil due to Fire",
   "Unit": "kg C m-2 s-1",
   "cf_compliant_units": "kg m-2 s-1",
-  "Comment": "contribution of combustion of Csoil to total CO2 emissions from fire",
+  "Comment": "contribution of combustion of Csoil to total C emissions from fire",
   "Variable name": "fFireCsoil",
   "CMOR dimensions": "longitude latitude time",
   "Calendar": "noleap",
