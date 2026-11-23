@@ -1,0 +1,17 @@
+{
+  "Variable": "CO2 Emission from Fire",
+  "Unit": "kg CO2 m-2 s-1",
+  "cf_compliant_units": "kg m-2 s-1",
+  "Comment": "Report in CO2. Computed by applying NEIVA emission factors in postprocessing.",
+  "Variable name": "fCO2Fire_neiva",
+  "CMOR dimensions": "longitude latitude time",
+  "Calendar": "noleap",
+  "missing value": "-99999.0",
+  "Frequency": "monthly",
+  "CMIP7 Compound Name": "land.fCO2Fire_neiva.tavg-u-hxy-lnd.mon.glb",
+  "CMIP7 Branded Variable Name": "",
+  "CMIP7 Frequency": "",
+  "CF Standard Name": "",
+  "CMIP7 Description": "",
+  "CMIP7 Title": ""
+}
